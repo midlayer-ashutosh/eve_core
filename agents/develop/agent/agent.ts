@@ -10,6 +10,7 @@ import { anthropic } from "eve/models/anthropic"
 export default defineAgent({
     model: anthropic("claude-sonnet-4-5"),   // model:"anthropic/claude-sonnet-4-5" normally using .
     reasoning: "medium",
+    defaultTools: false,
     modelContextWindowTokens: 50000,
     compaction: {
         thresholdPercent: 0.5

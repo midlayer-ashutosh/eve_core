@@ -19,6 +19,7 @@
     "@vercel/connect": "2.2.0",
     "ai": "^7.0.107",
     "eve": "^0.63.0",
+    "exa-js": "^2.22.2",
     "zod": "4.5.4"
   },
   "devDependencies": {
